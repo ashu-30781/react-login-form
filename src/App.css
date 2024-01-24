@@ -1,38 +1,246 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-div {
+  display: flex;
+}
+
+.first-section {
+  width: 50%;
+}
+
+.second-section {
+  width: 50%;
+}
+
+.image {
+  background-image: url("./Conqt\ logo\ .png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.icon {
+  margin-left: 15px;
+}
+
+.text {
+  display: flex;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  color: white;
+  width: 70%;
+  margin-left: 150px;
+  padding-top: 30%;
+}
+
+.image-2 {
+  background: url("./background\ 2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+
+.text-2 {
+  font-family: poppins;
+  font-size: 32px;
+  margin-top: 50px;
+  color: #000000;
+  line-height: 48px;
+  text-align: center;
+  margin-right: 210px;
+  margin-left: 52px;
+}
+
+span {
+  color: #304ffe;
+  font-weight: 600;
+  font-family: poppins;
+}
+
+.text-3 {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #333333;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input-1 {
+  margin-left: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#input_container1 {
+  position: relative;
+  padding: 0;
+  margin-top: 80px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+#input_container2 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+#input {
+  padding: 10px 40px;
   align-items: center;
+  color: #403d39;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  height: 40px;
+  width: 466px;
+  margin-left: 100px;
+  margin-top: 15px;
+  /* border-radius: 2px; */
+}
+
+#input_img {
+  position: absolute;
+  bottom: 10px;
+  left: 110px;
+  width: 20px;
+  height: 16px;
+}
+
+#input_img2 {
+  position: absolute;
+  bottom: 10px;
+  left: 110px;
+  width: 16px;
+  height: 16px;
+}
+
+#input2 {
+  padding: 10px 40px;
+  align-items: center;
+  color: #403d39;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: 700;
+  height: 40px;
+  width: 466px;
+  margin-left: 100px;
+  margin-top: 15px;
+  /* border-radius: 2px; */
+}
+
+::placeholder {
+  opacity: 1;
+  font-family: poppins;
+}
+
+.checkbox {
+  margin-top: 15px;
+  margin-left: 100px;
+  margin-right: 20px;
+  color: #828282;
+  line-height: 21px;
+}
+
+.checkbox-text {
+  font-family: poppins;
+  margin-right: 50px;
+  color: #828282;
+  font-size: 14px;
+}
+
+.forgot-password {
+  font-size: 14px;
+  color: #828282;
+  margin-left: 145px;
+  text-decoration: none;
+}
+
+.button {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  padding: 12px 70px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 5px;
+  background: #304ffe;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  width: 62%;
+  height: 40px;
+  margin-left: 100px;
+  margin-top: 40px;
+  transition: 0.5s;
 }
 
-.App-link {
-  color: #61dafb;
+.button:hover{
+    background: #5e74f0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+p {
+  font-family: poppins;
+  font-size: 16px;
+  color: #828282;
+  margin-top: 20px;
+  text-align: center;
+  margin-right: 90px;
+  letter-spacing: 5%;
+}
+
+.Register {
+  color: blue;
+  letter-spacing: 5%;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.terms {
+  margin-top: 20%;
+  font-family: roboto;
+}
+
+@media (max-width: 500px) {
+  .first-section {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+
+
+#email_error{
+    margin-left: 101px;
+    margin-top: 9px;
+    color: #c62828;
+    background: rgba(255,0,0,0.1);
+    width: 466px;
+    /* text-align: center; */
+    padding: 5px 8px;
+    /* border-radius: 3px; */
+    border: 1px solid #EF9A9A;
+    display: none;
+}
+
+
+#pass_error{
+    margin-left: 101px;
+    margin-top: 9px;
+    color: #c62828;
+    background: rgba(255,0,0,0.1);
+    width: 466px;
+    padding: 5px 8px;
+    /* border-radius: 3px; */
+    border: 1px solid #EF9A9A;
+    display: none;
 }
