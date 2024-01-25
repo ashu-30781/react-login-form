@@ -185,8 +185,8 @@ span {
   transition: 0.5s;
 }
 
-.button:hover{
-    background: #5e74f0;
+.button:hover {
+  background: #5e74f0;
 }
 
 p {
@@ -219,28 +219,28 @@ p {
 
 
 
-#email_error{
-    margin-left: 101px;
-    margin-top: 9px;
-    color: #c62828;
-    background: rgba(255,0,0,0.1);
-    width: 466px;
-    /* text-align: center; */
-    padding: 5px 8px;
-    /* border-radius: 3px; */
-    border: 1px solid #EF9A9A;
-    display: none;
+#email_error {
+  margin-left: 101px;
+  margin-top: 9px;
+  color: #c62828;
+  background: rgba(255, 0, 0, 0.1);
+  width: 466px;
+  /* text-align: center; */
+  padding: 5px 8px;
+  /* border-radius: 3px; */
+  border: 1px solid #EF9A9A;
+  display: none;
 }
 
 
-#pass_error{
-    margin-left: 101px;
-    margin-top: 9px;
-    color: #c62828;
-    background: rgba(255,0,0,0.1);
-    width: 466px;
-    padding: 5px 8px;
-    /* border-radius: 3px; */
-    border: 1px solid #EF9A9A;
-    display: none;
+#pass_error {
+  margin-left: 101px;
+  margin-top: 9px;
+  color: #c62828;
+  background: rgba(255, 0, 0, 0.1);
+  width: 466px;
+  padding: 5px 8px;
+  /* border-radius: 3px; */
+  border: 1px solid #EF9A9A;
+  display: none;
 }
