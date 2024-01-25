@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import Vector from "./images/Vector.png";
 import img2 from "./images/img2.png";
